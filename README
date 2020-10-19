@@ -1,0 +1,21 @@
+Author: Kun Peng
+
+Instruction: This is a simple chat room using sockets, written in python.
+
+===Command lines to run server and client:===
+python server.py
+python client.py
+
+===Instruction:===
+When connecting as a new client, user should first type in their user name.
+Users can either send text messages or commands.
+Users receive messages from other sockets after an enter is pressed.
+
+===All valid commands:===
+<HELP>: Show all valid commands.
+<LISTUSERS>: List all registered users.
+<LOG>: Display at most last 10 text messages (expect commands) of the chat room.
+<RENAME> + whitespace + (new name): Rename current client.
+(For example: <RENAME> Jack)
+<REPEAT>: Repeat last text message from the client.
+<USERINFO>: Show current client's user name.
